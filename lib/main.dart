@@ -10,6 +10,7 @@ import 'package:flutter_learn/30DaysConcepts/image.dart';
 import 'package:flutter_learn/30DaysConcepts/list_grid.dart';
 import 'package:flutter_learn/30DaysConcepts/rows_cols.dart';
 import 'package:flutter_learn/30DaysConcepts/snackbar.dart';
+import 'package:flutter_learn/ui/BottomNavbar.dart';
 
 void main() {
   runApp(MyApp());
@@ -23,6 +24,6 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         theme: ThemeData(
             brightness: Brightness.light, primaryColor: Colors.orange),
-        home: BottomNav());
+        home: BottomNavbar());
   }
 }
